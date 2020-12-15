@@ -1,10 +1,10 @@
 .data
 
 lf: .asciiz	"\n"
-ne: .asciiz	" Resultado neurônio: "
-re: .asciiz	" Resultado real: "
+ne: .asciiz	" Resultado neurônio : "
+re: .asciiz	" Resultado real : "
 s:  .asciiz	" + " 
-p:  .asciiz	"Pesos finais: " 
+p:  .asciiz	"Pesos finais : " 
 w0: .float 0.00000000
 w1: .float 0.80000000
 ta: .float 0.05000000
@@ -121,3 +121,4 @@ main: add $t1, $zero, $zero
   jr $ra
 
 end:
+
